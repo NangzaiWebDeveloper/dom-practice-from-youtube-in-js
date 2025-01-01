@@ -40,9 +40,29 @@
 // let sun = document.querySelector(".top")
 // console.log(sun.childNodes[1])
 
-//PreviousElementSibling
+
+//previousElementSibling
+// EX : 1
+// console.log(document.querySelector(".hero").previousElementSibling.previousElementSibling)
+
+// EX : 2
+// let previous = document.querySelector(".hero")
+// if(previous.previousElementSibling == null){
+//     console.log("Your finding element is Null BOSS");
+// }
+// else{
+//     console.log(previous.previousElementSibling);
+// }
+
+// EX : 3
+// let previous = document.querySelectorAll(".hero")
+// previous.forEach((ele)=> console.log(ele.previousElementSibling))
+
+
 
 //appendChild
+
+
 
 //remove
 
