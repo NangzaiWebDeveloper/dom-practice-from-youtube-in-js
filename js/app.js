@@ -35,11 +35,11 @@
 
 //-----children
 // let son = document.querySelector(".top")
-// console.log(son.children[0]);
+// console.log(son.children[0]); //output: <h2>...</h2>
 
-//-----childNodes
+// //-----childNodes
 // let sun = document.querySelector(".top")
-// console.log(sun.childNodes[1])
+// console.log(sun.childNodes[0]) //output: text
 
 
 //-----previousElementSibling
@@ -82,11 +82,48 @@
 
 
 //-----parentNode
+// const parentN = document.querySelector("html")
+// const pro = parentN.parentNode;
+// console.log(pro);
+
+
+//-----previousSibling
+// const a = document.querySelector(".hero")
+// console.log(a.previousElementSibling); //output: <li>...</li>
+
+// const b = document.querySelector(".hero")
+// console.log(b.previousSibling);//output: #text
+
+
+//-----nextSibling
+// const next = document.querySelector(".hero")
+// console.log(next.nextSibling);//output: #text
+
+// ----- nextElementSibling
+// const nextEle = document.querySelector(".hero")
+// console.log(nextEle.nextElementSibling);//output: <li>..Baron..</li>
 
 
 
-//previousSibling
+//-----firstChild
+// const fChild = document.querySelector("ul")
+// const resultT = fChild.firstChild;
+// console.log(resultT);
 
-//firstChild
+//-----firstElementChild
+// const fEChild = document.querySelector("ul")
+// const resultE = fEChild.firstElementChild;
+// console.log(resultE)
+
+
 
 //lastChild
+// const lChaild = document.querySelector("ul")
+// const resultL = lChaild.lastChild;
+// console.log(resultL);//output: text
+
+// //lastElementChild
+// const leChild = document.querySelector("ul")
+// const resultLe = leChild.lastElementChild;
+// console.log(resultLe)//output: Eden
+
