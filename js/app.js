@@ -1,47 +1,48 @@
-//getElementsByTagName()
+//-----getElementsByTagName()
 // let a = document.getElementsByTagName('ul')
 // console.log(a);
 
-//getElementsByClassName()
+//----getElementsByClassName()
 // let b = document.getElementsByClassName("hero")
 // console.log(b);
 
 
-//getElementById()
+//----getElementById()
 // let c = document.getElementById("manes")
 // console.log(c);
 
 
-//querySelector() //only first property show. It's like includes method.
+//----querySelector() //only first property show. It's like includes method.
 // let d = document.querySelector(".hero")
 // console.log(d);
 
 
-//querySelectorAll()
+//-----querySelectorAll()
 // let e = document.querySelectorAll("li")
 // console.log(e);
 
 
 
 
-//------Traverse The DOM------
+//---@@@---Traverse The DOM---@@@---
 
-//parentElement;
+
+//----parentElement;
 // let parent = document.querySelector('ul')
 // let result = parent.parentElement;
 // console.log(result);
 
 
-//children
+//-----children
 // let son = document.querySelector(".top")
 // console.log(son.children[0]);
 
-//childNodes
+//-----childNodes
 // let sun = document.querySelector(".top")
 // console.log(sun.childNodes[1])
 
 
-//previousElementSibling
+//-----previousElementSibling
 // EX : 1
 // console.log(document.querySelector(".hero").previousElementSibling.previousElementSibling)
 
@@ -60,15 +61,29 @@
 
 
 
-//appendChild
+//-----appendChild
+// const ulElement = document.querySelector("ul")
+// const newLi = document.createElement("li")
+// newLi.textContent = "this is Sujon"
+// ulElement.appendChild(newLi)
 
 
+//-----remove()
+// const ul = document.querySelector("li")
+// ul.remove()
 
-//remove
 
-//replaceChild
+//-----replaceChild
+// const ulElement = document.querySelector("ul")
+// const locationOfChild = ulElement.children[1];
+// const newLi = document.createElement("li")
+// newLi.textContent = "SUSHIL WANT TO CHANGE MY MIND"
+// ulElement.replaceChild(newLi, locationOfChild)
 
-//parentNode
+
+//-----parentNode
+
+
 
 //previousSibling
 
