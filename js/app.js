@@ -127,3 +127,14 @@
 // const resultLe = leChild.lastElementChild;
 // console.log(resultLe)//output: Eden
 
+
+
+//------innerHtml
+const hold = document.querySelector("ul")
+const pick = hold.children
+for(let i=0; i<= pick.length; i++){
+    const result = pick[i].innerHTML
+    console.log(result);
+}
+
+
