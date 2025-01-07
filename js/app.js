@@ -129,12 +129,43 @@
 
 
 
-//------innerHtml
-const hold = document.querySelector("ul")
-const pick = hold.children
-for(let i=0; i<= pick.length; i++){
-    const result = pick[i].innerHTML
-    console.log(result);
-}
+//------innerHTML
+// EX-01:
+// const hold = document.querySelector("ul")
+// const pick = hold.children
+// for(let i=0; i<= pick.length; i++){
+//     const result = pick[i].innerHTML
+//     console.log(result);
+// }
+
+// EX-02: 
+// const hold = document.querySelector(".hero")
+// hold.innerHTML = "Hello Hello"
+// console.log(hold);
+
+// EX-03:
+// const hold = document.querySelector(".hero")
+// hold.innerHTML += " Hello Hello"
+// console.log(hold);
+
+// EX-04:
+// const hold = document.querySelector(".hero")
+// hold.innerHTML = "<b>Hello Hello</b>"
+// // hold.innerHTML = "<i>Hello Hello</i>"
+// console.log(hold.innerHTML);//innerHTML shows only inner text
 
 
+
+//------outerHTML
+// const hold = document.querySelector(".hero")
+// hold.outerHTML = "<b>Hello Hello hello</b>"
+// // hold.outerHTML = "<li>Hello Hello hello</li>"
+// console.log(hold.outerHTML);//outerHTML shows all over line. class name, element name, innerText
+
+
+
+// ------innerText
+
+
+
+// ------textContent
